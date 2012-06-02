@@ -26,7 +26,7 @@ key = ust_xml.xpath("//output/rtmp/stream").text
 print "RMTP: %s\n" % rmtp_uri
 print "KEY: %s\n" % key
 
-cmd = "%s -s %s -r %d -b %s -as %d -ab %s -f flv \'%s/%s %s\'" % 
+cmd = "%s -s %s -r %d -b %s -ar %d -ab %s -f flv \'%s/%s %s\'" % 
 	[dvgrab_base, video_size, frame, video_bitrate, audio_sampling_rate, 
 	audio_bitrate, rmtp_uri, key, fme_sig]
 
