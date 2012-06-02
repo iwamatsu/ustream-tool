@@ -8,7 +8,7 @@ audio_bitrate = '48k'
 audio_sampling_rate = 22050
 video_size = '320x240'
 
- if ARGV[0] == nil then
+if ARGV[0] == nil then
     puts "Please specify the files for ustream."
     exit
 end
